@@ -7,7 +7,7 @@ This Report was mainly to showcase Revenues / Profits quaterly and yearly for a 
 ### Concepts Used
 Analysis and Data Cleaning was mostly doing on Power Bi, using both DAX formulas & Power Query Tool to transform Data into it's intended format to be used for visualization.
 
-### Data Modeling (Star Schema)
-Dividing tables into Fact's & Dim Table made it an easier process to perform calculations. The decision to operate the model using a Star Schema was due to the fact, Star Schema worked best for this dataset, unlike Snowflake scheme which is better more larger datasets.
+### Data Modeling (SnowFlake Schema)
+Dividing tables into numerous Dimension tables made it an easier process to perform calculations. The decision to operate the model using a Snowflake Schema was due to the fact, that we needed to create a hierarchy of importance within the columns and metrics , unlike star schema which didn't provide me a solution to creating an unequal hierarchy.
 
 ![Data Model Star Schema](https://github.com/Lone2000/Pizza_Sales_Adhoc-Report/blob/main/image_2023-03-01_134213401.png)
